@@ -3,6 +3,7 @@ This repository is an open source codebase that optimizes the energy storage cap
 
 
 **Context**
+
 The project is part of research in the [Symbiotic Engineering Analysis (SEA) Lab](https://sea.mae.cornell.edu/)
 
 
@@ -36,4 +37,5 @@ The following packages are used in this code:
 
 
 **License**
+
 This project is released open-source under the MIT License. The hydrodynamics data was generated from WAMIT and WEC-Sim, which is publicly available.
