@@ -10,9 +10,10 @@ authors:
 - family-names: "Slocum"
   given-names: "Alexander H."
   orcid: "https://orcid.org/0000-0000-0000-0000"
-title: "The power balancing benefits of wave energy converters in offshorewind-wave farms with energy storage"
+title: "The power balancing benefits of wave energy converters in offshore
+wind-wave farms with energy storage"
 version: 1.0.0
 doi: 10.1016/j.apenergy.2022.120389
 date-released: 2022-12-01
-url: "https://github.com/symbiotic-engineering/sea-lab-template"
+url: "https://github.com/symbiotic-engineering/FWT-WEC-Power-Optimization"
 
