@@ -61,9 +61,13 @@ if n_standalone_WECs ~= 0
     % ICC_WEC_cost_per_kw = 396654*(P_cap_WEC*n_standalone_WECs)^(-0.332); % [2020 $] 
     % AOE_WEC_cost_per_kw = 99585*(P_cap_WEC*n_standalone_WECs)^(-0.55); % [2020 $/yr] 
     
-    % JK July 27, 2019: 
-    ICC_WEC= ICC_WEC_cost_per_kw * n_WECs * P_cap_WEC;
-    AOE_WEC= AOE_WEC_cost_per_kw * n_WECs * P_cap_WEC;
+    % JK July 27, 2019: Wrong number of WECs
+    % ICC_WEC= ICC_WEC_cost_per_kw * n_WECs * P_cap_WEC;
+    % AOE_WEC= AOE_WEC_cost_per_kw * n_WECs * P_cap_WEC;
+
+    % AA Jul 29, 2024, n_standalone_WECs not n_WECs
+    ICC_WEC= ICC_WEC_cost_per_kw * n_standalone_WECs * P_cap_WEC;   
+    AOE_WEC= AOE_WEC_cost_per_kw * n_standalone_WECs * P_cap_WEC;
     
 else
     ICC_WEC = 0;
